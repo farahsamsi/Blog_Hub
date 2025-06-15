@@ -6,7 +6,7 @@ import { FaBookmark, FaMoon, FaSearch, FaThLarge } from "react-icons/fa";
 const Navbar = () => {
   const [isDarkMode, setDarkMode] = useState(false);
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar  shadow-sm sticky top-0 bg-base-100/50 z-50 backdrop-blur-xl">
       <div className="navbar-start  lg:w-fit">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
