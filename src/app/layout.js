@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,8 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         <div className="min-h-[calc(100vh-260px)]">{children}</div>
         <Footer></Footer>
+        {/* Scroll to top (floating button) */}
+        <ScrollToTopButton></ScrollToTopButton>
       </body>
     </html>
   );

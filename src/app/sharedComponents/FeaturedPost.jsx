@@ -10,7 +10,7 @@ export default function FeaturedPost() {
     <div className="relative w-full h-72 overflow-hidden group">
       {/* Background Image */}
       <Image
-        src="https://i.ibb.co/SVr3m3X/join-As-Employee.png"
+        src="https://images.unsplash.com/photo-1444084316824-dc26d6657664?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Alaska travel advice"
         fill
         className="object-cover group-hover:scale-105 transition-transform duration-300"
