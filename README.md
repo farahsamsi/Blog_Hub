@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Blog Hub – AI-Powered Blog Platform
 
-## Getting Started
+A full-stack blog platform built with **Next.js**, **RTK Query**, and **Gemini AI API** that enables users to write, manage, and explore blog posts with intelligent features like tag suggestions and auto-summaries.
 
-First, run the development server:
+## 🚀 Features
+
+- ✨ **Next.js Full-Stack**: Frontend and backend powered by Next.js (API Routes).
+- 🔐 **User Authentication**: Sign up, login, logout using [NextAuth].
+- ✍️ **CRUD Blog Posts**: Users can create, read, update, and delete blog posts.
+- 🧠 **AI Integration**: Generate summaries, suggest tags, or assist writing blogs using Gemini API.
+- ⚡ **RTK Query**: Robust data fetching and caching for smooth client interactions.
+- 💬 **Comments**: Allow users to comment on posts.
+- ❤️ **Likes**: Engage with blog content.
+- 🔍 **Search**: Filter posts by title or tags.
+- 👤 **User Profiles**: View bios and authored posts.
+
+---
+
+## 🛠 Tech Stack
+
+| Tech       | Role                           |
+| ---------- | ------------------------------ |
+| Next.js    | Frontend & API Backend         |
+| React      | UI Components                  |
+| RTK Query  | State Management + API Caching |
+| MongoDB    | Database                       |
+| Gemini API | AI-based content enhancement   |
+| NextAuth   | Authentication                 |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/farahsamsi/Blog_Hub.git
+cd blog_hub
+npm install
+```
+
+Create a `.env.local` file and add:
+
+```env
+MONGODB_URI=<your-mongodb-uri>
+NEXTAUTH_SECRET=<your-secret>
+NEXTAUTH_URL=http://localhost:3000
+GEMINI_API_KEY=<your-gemini-api-key>
+```
+
+---
+
+## 🧪 Running the Project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to access the platform.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 AI Integration Options
 
-## Learn More
+Choose one or more:
 
-To learn more about Next.js, take a look at the following resources:
+- `🪄 Auto Summary`: Generate a TL;DR of your blog post.
+- `🏷️ Tag Suggester`: Get tag suggestions from the AI.
+- `✍️ Blog Assistant`: Give a topic, get an article draft!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Optional Stretch Goals
 
-## Deploy on Vercel
+- ✅ Server-Side Rendering (SSR)
+- ✅ Pagination for posts
+- ✅ Rich Text Editor (e.g., TipTap, React Quill)
+- ✅ Admin Panel & User Roles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌐 Live Demo
+
+🔗 [Live Site](https://your-live-site-url.com)
+
+---
+
+## 🌟 Star This Repo
+
+If you found this project useful, feel free to ⭐ it on GitHub!
